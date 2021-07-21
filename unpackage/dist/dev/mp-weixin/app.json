@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chat/chat",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/tags/tags",
+    "pages/types/types"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "Mrl博客",
+    "navigationBarBackgroundColor": "#aaaaff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "主页",
+        "pagePath": "pages/index/index",
+        "iconPath": "./static/index.png",
+        "selectedIconPath": "static/index-selected.png"
+      },
+      {
+        "text": "唠嗑",
+        "pagePath": "pages/chat/chat",
+        "iconPath": "./static/chat.png",
+        "selectedIconPath": "static/chat-selected.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/my/my",
+        "iconPath": "./static/user.png",
+        "selectedIconPath": "static/user-selected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap94.json"
+}

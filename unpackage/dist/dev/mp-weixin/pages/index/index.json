@@ -1,0 +1,10 @@
+{
+  "enablePullDownRefresh": true,
+  "transparentTitle": "none",
+  "usingComponents": {
+    "uni-card": "/components/uni-card/uni-card",
+    "uni-badge": "/components/uni-badge/uni-badge",
+    "uni-load-more": "/components/uni-load-more/uni-load-more",
+    "uni-pagination": "/components/uni-pagination/uni-pagination"
+  }
+}
